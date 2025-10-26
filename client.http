@@ -19,13 +19,13 @@ Accept: application/json
 Content-Type: application/json
 
 {
-  "name": "New Room",
-  "description": "A description for the new room"
+  "name": "New Room in September",
+  "description": "My room is beautiful"
 }
 
 ###
 
-@roomId = {{createRoom.request.body.$.roomId}}
+@roomId = {{createRoom.response.body.$.roomId}}
 
 ###
 
